@@ -58,6 +58,84 @@ Preguntas:
 
 ## SOLUCIÓN
 
+# HTML
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://plantillashtmlgratis.com/" />
+     <// link de Bootstrap
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <h1>CUADRO 1</h1>
+    <div class="div1">
+      <div class="div2"></div>
+      <div class="div3"></div>
+      <div class="div4"></div>
+    </div>
+
+    <// dejar este link siempre debajo para que pueda leer todos los archivos
+    desde la pagina de Bootstrap.
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+```
+# CSS
+
+```
+.div1 {
+    background-color: rgb(130, 128, 223);
+    height: 250px;
+    width: 250px;
+    position: browser;
+    top: 250px;
+    left: 2000px;
+  }
+  .div2 {
+    background-color: rgb(227, 7, 7);
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 70px;
+    left: 20px;
+    display: block;
+  }
+  .div3 {
+    background-color: rgb(49, 21, 192);
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 0px;
+    left: 60px;
+  }
+  .div4 {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: -80px;
+    left: 100px;
+    z-index: 3;
+  }
+
+```
+
 1. ## ¿Cuál es la diferencia entre los valores position: absolute y position: relative?
 
 Las propiedades CSS position: absolute y position: relative son utilizadas para controlar la posición de elementos en una página web, pero se comportan de manera diferente:
