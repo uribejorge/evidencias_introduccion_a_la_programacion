@@ -1,18 +1,17 @@
 <!-- No borrar o modificar -->
 [Inicio](./index.md)
 
-## Sesión 11 
-
 
 ## Actividad: Propiedades CSS, SeudoClases, SeudoElementos y Reglas @css
 ### Crear un documento HTML y probar cada uno de los ejemplos de la sesión 11
 
+
+
 ## SOLUCIÓN
 
-## Documento HTML
+## DOCUMENTO HTML
 
 ```
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -94,85 +93,85 @@
 
 ```
 
-## Documento CSS
+## DOCUMENTO CSS
 
 ```
 input[type="color"]::-moz-color-swatch {
-        border-radius: 10px;
-        border-style: none;
-      }
+    border-radius: 10px;
+    border-style: none;
+  }
 
-      .joinBtn {
-        width: 10em;
-        height: 5ex;
-        background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
-        border: none;
-        border-radius: 5px;
-        font-weight: bold;
-        color: white;
-        cursor: pointer;
-      }
-      
-      .joinBtn:active {
-        box-shadow: 2px 2px 5px #fc894d;
-      }
+  .joinBtn {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .joinBtn:active {
+    box-shadow: 2px 2px 5px #fc894d;
+  }
 
 
-      p {
-        font-weight: bold;
-      }
-      
-      a:any-link {
-        color: forestgreen;
-        text-decoration-color: hotpink;
-      }
+  p {
+    font-weight: bold;
+  }
+  
+  a:any-link {
+    color: forestgreen;
+    text-decoration-color: hotpink;
+  }
 
-      textarea:blank {
-        border: 3px solid red;
-      }
+  textarea:blank {
+    border: 3px solid red;
+  }
 
-      td:-moz-drag-over {
-        color: red;
-      }
+  td:-moz-drag-over {
+    color: red;
+  }
 
-      div {
-        border: 4px solid red;
-      }
-      
-      :-moz-only-whitespace {
-        border-color: rgb(4, 246, 4);
-      }
+  div {
+    border: 4px solid red;
+  }
+  
+  :-moz-only-whitespace {
+    border-color: rgb(4, 246, 4);
+  }
 
-      p {
-        background-color: white;
-      }
-      
-      p:hover {
-        background-color: gray;
-      }
+  p {
+    background-color: white;
+  }
+  
+  p:hover {
+    background-color: gray;
+  }
 
-      #mybox {
-        background: linear-gradient(to bottom, yellow, cyan);
-        width: 200px;
-        height: 200px;
-      }
-      
-      #mybox:-moz-window-inactive {
-        background: cyan;
-      }
+  #mybox {
+    background: linear-gradient(to bottom, yellow, cyan);
+    width: 200px;
+    height: 200px;
+  }
+  
+  #mybox:-moz-window-inactive {
+    background: cyan;
+  }
 
-      input[type="range"]::-moz-range-progress {
-        background-color: green;
-        height: 1em;
-      }
+  input[type="range"]::-moz-range-progress {
+    background-color: green;
+    height: 1em;
+  }
 
-      :current(p, span) {
-        background-color: yellow;
-      }
+  :current(p, span) {
+    background-color: yellow;
+  }
 
-      video {
-        height: 300px;
-        margin-bottom: 40px;
-    }
+  video {
+    height: 300px;
+    margin-bottom: 40px;
+}
 
-    ```
+```
