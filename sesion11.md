@@ -94,7 +94,7 @@
 
 ```
 
-## CSS
+## Documento CSS
 
 ```
 input[type="color"]::-moz-color-swatch {
